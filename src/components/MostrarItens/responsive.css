@@ -6,7 +6,7 @@
     }
 
     .containerItens .item {
-        max-width: none;
+        width: 100%;
     }
 
     .containerItens .botoesItens button {
