@@ -1,0 +1,95 @@
+.containerItem {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    font-size: 1.3em;
+}
+
+.itemIndividual {
+    margin-top: 3%;
+}
+
+.itemIndividual .imagemGrande {
+    display: flex;
+    justify-content: center;
+}
+
+.itemIndividual .imagemGrande img {
+    border-radius: 5px;
+}
+
+.itemIndividual h2 {
+    color: coral;
+    text-align: center;
+    font-size: 4em;
+    margin-top: -1%;
+}
+
+.infoCriacao {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.infoCriacao p {
+    font-weight: 600;
+    text-align: center;
+}
+
+.infoCriacao .donoItem {
+    font-weight: 900;
+    margin-left: 6px;
+}
+
+.precoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.precoContainer .precoHeader {
+    text-align: center;
+}
+
+.precoSpan {
+    margin-top: 6px;
+    display: inline-block;
+    width: 100%;
+    font-size: 1.5em;
+    color: coral;
+}
+
+.adicionarAoCarrinho {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    height: 14%;
+}
+
+.adicionarAoCarrinho .comprarButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 40%;
+    min-width: 71px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 350ms ease;
+    font-size: 1.1em;
+    background-color: rgba(113, 238, 184, 0.7);
+    font-weight: 600;
+}
+
+.adicionarAoCarrinho .comprarButton:hover {
+    background-color: #3cb371;
+}
+
+.fa-shopping-cart {
+    margin-right: 10%;
+}

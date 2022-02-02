@@ -1,0 +1,66 @@
+.formulario {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.wrapSecao {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+
+}
+
+.wrapSecao label {
+    font-size: 1.5em;
+    margin-bottom: 4px;
+}
+
+.wrapSecao input {
+    width: 50vw;
+    min-width: 300px;
+    max-width: 482px;
+    height: 3.4vh;
+    border: 1px solid orange;
+    margin-top: 5px;
+    cursor: pointer;
+    padding-left: 7px;
+}
+
+.containerSubmit {
+    margin-top: 20px;
+    width: 50vw;
+    max-width: 482px;
+    text-align: right;
+    min-width: 300px;
+}
+
+
+.containerSubmit button {
+    padding: 10px;
+    color: black;
+    font-weight: 600;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 500ms ease;
+    width: 35%;
+    height: 7vh;
+    max-height: 50px;
+    max-width: 120px;
+}
+
+.containerSubmit button:hover {
+    cursor: pointer;
+    background-color: rgb(255, 140, 0);
+    color: white;
+}
+
+.error {
+    margin-top: 2%;
+    background-color: rgba(255, 0, 0, 0.4);
+    font-weight: 900;
+}

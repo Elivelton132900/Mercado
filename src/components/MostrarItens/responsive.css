@@ -1,0 +1,50 @@
+@media only screen and (max-width: 726px) {
+    .containerItens .botoesItens {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containerItens .item {
+        max-width: none;
+    }
+
+    .containerItens .botoesItens button {
+        margin-bottom: 4%;
+        height: 8vh;
+    }
+
+    section.containerItens {
+        max-height: none;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    .containerItens {
+        flex-direction: column;
+        align-items: center;   
+    }
+
+    .containerItens .botoesItens {
+        flex-direction: row;
+        margin-top: 4%;
+    }
+
+    .containerItens .imagem img {
+        width: 150%;
+        max-width: 100px;
+        margin-bottom: 5%;
+    }
+
+    .containerItens .nomeDescricaoContainer a h2.itemTermo {
+        margin: 0 auto;
+    }
+
+    .nomeDescricaoContainer {
+        text-align: center;
+    }
+
+    .preco {
+        display: block;
+    }
+}

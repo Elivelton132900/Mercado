@@ -1,0 +1,27 @@
+@media only screen and (max-width: 433px) {
+
+    .itemIndividual .imagemGrande img {
+        max-height: 351px;
+        max-width: 235px;
+    }
+
+    .itemIndividual h2 {
+        font-size: 3em;
+    }
+
+    .infoCriacao p {
+        font-size: 0.9em;
+    }
+
+    .infoCriacao p:last-child {
+        margin: 0 6%;
+    }
+
+    .adicionarAoCarrinho .comprarButton {
+        min-width: 140px;
+    }
+
+    .infoCriacao {
+        width: 80%;
+    }
+}

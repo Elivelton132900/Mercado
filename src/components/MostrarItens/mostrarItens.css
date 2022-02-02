@@ -1,0 +1,98 @@
+.containerMaster {
+    margin: 3% 5%;
+}
+
+.containerItens {
+    padding: 10px;
+    display: flex;
+    border-top-style: solid;
+    border-top-color: rgba(255, 127, 80, 0.3);
+    border-top-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(255, 127, 80, 0.3);
+    border-bottom-width: 2px;
+    margin-bottom: 3%;
+}
+
+
+.containerItens .imagem img {
+    height: 130px;
+    border-radius: 5px;
+    width: 90px;
+}
+
+.containerItens .nomeDescricaoContainer a h2.itemTermo {
+    color: black;
+}
+
+.containerItens .item {
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.itemTermo {
+    cursor: pointer;
+}
+
+.containerItens .botoesItens {
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.containerMaster .botoesItens button a {
+    padding: 77% 30%;
+}
+
+.containerItens .botoesItens button {
+    margin-left: 10%;
+    border: 1px solid white;
+    width: 20%;
+    min-width: 71px;
+    height: 59px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 350ms ease;
+    font-size: 1.1em;
+}
+
+.containerMaster .containerItens .botoesItens button a {
+    color: black;
+}
+
+.containerItens .botoesItens button:nth-child(1) {
+    background-color: rgba(113, 238, 184, 0.7);
+}
+.containerItens .botoesItens button:nth-child(2) {
+    background-color: rgba(254, 148, 15, 0.7)
+}
+.containerItens .botoesItens button:nth-child(3) {
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+.containerItens .botoesItens button:hover {
+    filter: brightness(0.7);
+}
+
+.containerItensWarning {
+    font-size: 2em;
+    text-align: center;
+}
+
+.containerItensWarning h3 {
+    font-size: 0.9em;
+}
+
+.containerItensWarning .span {
+    color: coral;
+    cursor: pointer;
+    display: block;
+    margin-top: 4%;
+}

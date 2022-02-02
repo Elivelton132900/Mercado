@@ -1,0 +1,26 @@
+@media only screen and (max-width: 437px) {
+    .containerImagemCarrinho {
+        position: relative;
+    }
+
+    .containerBotaoCarrinho {
+        position: absolute;
+        bottom: 6%;
+        left: 50%;
+        right: 50%;
+        margin-top: 5%;
+    }
+
+    .containerImagemCarrinho .containerBotaoCarrinho button  {
+        min-width: 30vw;
+        height: 8vh;
+    }
+
+    .containerValorTotal {
+        align-items: center;
+    }
+
+    .containerLimpaTudo {
+        text-align: center;
+    }
+}
