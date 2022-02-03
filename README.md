@@ -14,7 +14,7 @@
 </div>
 
 <h2 id="sobre" align="center">Sobre o projeto</h2>
-<p>Essa aplicação foi construída como uma forma de colocar em prática tudo o que aprendi no curso <a href="https://www.udemy.com/course/react-redux/">"Modern React with Redux"</a>. A proposta deste projeto é simular um pequeno web commerce com um back-end simples construído através da biblioteca JSON Server. Construir essa aplicação foi uma ótima maneira de consolidar o meu conhecimento com o Redux, React, requisições http básicas (CRUD), roteamento utilizado React Router, validação de formulário utilizando React Final Form e a implementação de um sistema de login utilizando o Google OAuth</p>
+<p>Essa aplicação foi construída como uma forma de colocar em prática tudo o que aprendi no curso <a href="https://www.udemy.com/course/react-redux/">"Modern React with Redux"</a>. A proposta deste projeto é simular um pequeno web commerce com um back-end simples construído através da biblioteca JSON Server. Construir essa aplicação foi uma ótima maneira de consolidar o meu conhecimento com o Redux, React, requisições http básicas (CRUD), roteamento utilizando React Router, validação de formulário utilizando React Final Form e a implementação de um sistema de login utilizando o Google OAuth</p>
 <br>
 <p>Apenas quem criou o item pode alterá-lo, essa autenticação é feita de acordo com as informações providas pela biblioteca de autenticação do Google, por tanto os botões de edição e exclusão apenas ficam disponíveis para o criador do mesmo. Sempre que uma alteração é feita no back-end da aplicação, seja pela edição ou exclusão de algum item, o carrinho também é atualizado com as novas informações.</p>
 <br>
