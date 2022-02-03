@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import reactDOM from "react-dom";
 import './hamburguer.css'
-import ItensNavegacao from "../../itensNavegacao/ItensNavegacao";
+import ItensNavegacao from "../itensNavegacao/ItensNavegacao";
 
 
 const Hamburguer = (props) => {

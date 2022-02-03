@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import GoogleAuth from "../components/GoogleAuth/GoogleAuth";
+import GoogleAuth from "../GoogleAuth/GoogleAuth";
 import './itensNavegacao.css'
 
 const ItensNavegacao = (props) => {

@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import './header.css'
 import './responsive.css'
 import '../Hamburguer/Hamburguer.js'
-import ItensNavegacao from "../../itensNavegacao/ItensNavegacao";
+import ItensNavegacao from "../itensNavegacao/ItensNavegacao";
 import Hamburguer from "../Hamburguer/Hamburguer.js";
 
 class Header extends React.Component {
