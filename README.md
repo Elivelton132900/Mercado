@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+<h1 align="center">Mercado</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>Tabela de Conteúdos</h2>
+<ul>
+    <li><a href="#visaoGeral">Visão Geral</a></li>
+    <li><a href="#sobre">Sobre o Projeto</a></li>
+    <li><a href="#construidoCom">Recursos Utilizados Para a Construção do Projeto</a></li>
+    <li><a href="#comoUtilizar">Link para acessar o site</a></li>
+    <li><a></a></li>
+</ul>
 
-## Available Scripts
+<h2 align="center" id="visaoGeral">Visão geral</h2>
+<img src="./src/gifDemonstracao/mercado.gif">
 
-In the project directory, you can run:
+<h2 id="sobre" align="center">Sobre o projeto</h2>
+<p>Essa aplicação foi construída como uma forma de colocar em prática tudo o que aprendi no curso <a href="https://www.udemy.com/course/react-redux/">"Modern React with Redux"</a>. A proposta deste projeto é simular um pequeno web commerce com um back-end simples construído através da biblioteca JSON Server. Construir essa aplicação foi uma ótima maneira de consolidar o meu conhecimento com o Redux, React, requisições http básicas (CRUD), roteamento utilizado React Router, validação de formulário utilizando React Final Form e a implementação de um sistema de login utilizando o Google OAuth</p>
+<br>
+<p>Apenas quem criou o item pode alterá-lo, essa autenticação é feita de acordo com as informações providas pela biblioteca de autenticação do Google, por tanto os botões de edição e exclusão apenas ficam disponíveis para o criador do mesmo. Sempre que uma alteração é feita no back-end da aplicação, seja pela edição ou exclusão de algum item, o carrinho também é atualizado com as novas informações.</p>
+<br>
+<p>Sempre que um item é cadastrado uma requisição http é feita para a API <a href="https://www.pexels.com/pt-br/">Pexels</a>. Ela é responsável por viabilizar imagens de acordo com o item que está sendo cadastrado. Esse site é totalmente responsivo para dispositivos móveis.</p>
 
-### `npm start`
+<h2 id="construidoCom" align="center">Recursos utilizados nessa aplicação</h2>
+<ul>
+    <li>React</li>
+    <li>React Portals</li>
+    <li>React Router</li>
+    <li>React Final Form</li>
+    <li>Hooks</li>
+    <li>Google OAuth</li> 
+    <li>Json Server</li>
+    <li>Redux</li>
+    <li>Redux-Thunk</li>
+    <li>Axios</li>
+    <li>Css</li>
+    <li>Media Queries</li>
+</ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h2 id="comoUtilizar" align="center">Como utilizar</h2>
+<p>Você pode acessar essa aplicação através desse <a href="https://mercadosimulator.netlify.app">link.</a> Sinta-se à vontade para adicionar algum item no site! </p>

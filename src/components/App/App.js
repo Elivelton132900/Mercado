@@ -1,14 +1,14 @@
 import React from "react";
 import { Router, Route, Switch } from 'react-router-dom'
 import './app.css'
-import history from "../history";
-import Header from "./Header/Header";
-import CriarItem from "./CriarItem/CriarItem";
-import MostrarItens from "./MostrarItens/MostrarItens";
-import DeletarItem from "./DeletarItem/DeletarItem";
-import MostrarItem from './mostrarItem/MostrarItem'
-import Carrinho from './ListaCarrinho/ListaCarrinho'
-import EditarItem from "./EditarItem/EditarItem";
+import history from "../../history";
+import Header from "../Header/Header";
+import CriarItem from "../CriarItem/CriarItem";
+import MostrarItens from "../MostrarItens/MostrarItens";
+import DeletarItem from "../DeletarItem/DeletarItem";
+import MostrarItem from '../mostrarItem/MostrarItem'
+import Carrinho from '../ListaCarrinho/ListaCarrinho'
+import EditarItem from "../EditarItem/EditarItem";
 
 const App = () => {
 
