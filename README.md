@@ -5,12 +5,13 @@
     <li><a href="#visaoGeral">Visão Geral</a></li>
     <li><a href="#sobre">Sobre o Projeto</a></li>
     <li><a href="#construidoCom">Recursos Utilizados Para a Construção do Projeto</a></li>
-    <li><a href="#comoUtilizar">Link para acessar o site</a></li>
-    <li><a></a></li>
+    <li><a href="#estrutura">Estrutura do Projeto</a></li>
+    <li><a href="#comoUtilizar">Link para acessar o site</a></li> 
 </ul>
 
 <h2 align="center" id="visaoGeral">Visão geral</h2>
-<img src="./src/gifDemonstracao/mercado.gif">
+<div align="center"><img src="./src/gifDemonstracao/mercado.gif">
+</div>
 
 <h2 id="sobre" align="center">Sobre o projeto</h2>
 <p>Essa aplicação foi construída como uma forma de colocar em prática tudo o que aprendi no curso <a href="https://www.udemy.com/course/react-redux/">"Modern React with Redux"</a>. A proposta deste projeto é simular um pequeno web commerce com um back-end simples construído através da biblioteca JSON Server. Construir essa aplicação foi uma ótima maneira de consolidar o meu conhecimento com o Redux, React, requisições http básicas (CRUD), roteamento utilizado React Router, validação de formulário utilizando React Final Form e a implementação de um sistema de login utilizando o Google OAuth</p>
@@ -34,6 +35,10 @@
     <li>Css</li>
     <li>Media Queries</li>
 </ul>
+
+<h2 align="center" id="estrutura">Estrutura do Projeto</h2>
+<div align="center"><img src="./src/gifDemonstracao/estruturaSite.png"><div>
+
 
 <h2 id="comoUtilizar" align="center">Como utilizar</h2>
 <p>Você pode acessar essa aplicação através desse <a href="https://mercadosimulator.netlify.app">link.</a> Sinta-se à vontade para adicionar algum item no site! </p>
